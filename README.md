@@ -1,23 +1,23 @@
 # Jenkins Pipeline
 
-Jenkinsfile0
- stage 1
- agent is any
+Jenkinsfile0<br>
+ stage 1<br>
+ agent is any<br><br>
 
-Jenkinsfile1
- stage 1-2-3
- stage names Build, Test, Deploy
- echo "Start of Stage ..."
- echo "Progress of Stage ..."
- echo "End of Stage ..."
- agent is any
+Jenkinsfile1<br>
+ stage 1-2-3<br>
+ stage names Build, Test, Deploy<br>
+ echo "Start of Stage ..."<br>
+ echo "Progress of Stage ..."<br>
+ echo "End of Stage ..."<br>
+ agent is any<br><br>
 
-Jenkinsfile2
- stage 1-2-3
- run sh python --version
- agent is docker container(img)
+Jenkinsfile2<br>
+ stage 1-2-3<br>
+ run sh python --version<br>
+ agent is docker container(img)<br><br>
 
-Jenkinsfile3
- stage 1-2-3-4
- used enviroments variables
- agent is any
+Jenkinsfile3<br>
+ stage 1-2-3-4<br>
+ used enviroments variables<br>
+ agent is any<br>
